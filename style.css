@@ -1,0 +1,42 @@
+body{
+    padding: 100px 300px;
+    background-color: antiquewhite;
+}
+.flag{
+    box-shadow: 10px 10px 10px 5px gray;
+    width: 720px;
+    height: 500px;
+    border: 2px solid black;
+}
+.green{
+    width: 510;
+    height: 500px;
+    background:linear-gradient(to left bottom,green,rgb(153, 238, 153));
+
+}
+.green img{
+    margin: 50px 30px;
+    width: 400px;
+
+}
+.white{
+    letter-spacing: 7px;
+    padding-left: 60px;
+    padding-top: 30px;
+    writing-mode: vertical-rl;
+    width: 200px;
+    height: 470px;
+    background:linear-gradient(to right,white,rgb(217, 243, 217)); 
+    float: left;  
+}
+.white{
+    background-image: url('./images.jpeg');
+    background-size: cover;
+    mix-blend-mode: screen;
+}
+.white p{
+    color: rgba(40, 82, 40, 0.8);
+    text-shadow: 10px 10px 5px gray;
+    font-size: 120px;
+    width: 700px;
+}
